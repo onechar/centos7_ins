@@ -2,6 +2,7 @@
 #ins_mysql8.sh
 sudo yum remove mariadb*
 sudo yum -y install wget
+sudo yum -y install numactl
 wget https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.18-linux-glibc2.12-x86_64.tar.xz
 tar -xvf mysql-8.0.18-linux-glibc2.12-x86_64.tar.xz
 mv ~/centos7_ins/mysql-8.0.18-linux-glibc2.12-x86_64 mysql
